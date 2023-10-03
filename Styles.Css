@@ -1,0 +1,97 @@
+*{
+    /* border: 0.5px solid rgb(255, 255, 255); */
+    margin:auto;
+    padding:0;
+    color:rgb(211, 215, 219);
+} 
+article{
+    max-width:600px;
+    margin:0px auto 12px auto;
+    padding:24px;
+    background-color: rgb(37, 37, 37);
+    border-radius:10px;
+    min-width: 300px;
+}
+footer{
+    font-size: 18px;
+}
+head{
+    text-align:center;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color:rgb(211, 215, 219);
+    font-size: 72px;
+    text-align:center;
+}
+h2{
+    color: rgb(203, 208, 217);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    text-align:center;
+}
+h3{
+    color:rgb(203, 208, 217);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+h4{
+    color: rgb(203, 208, 217);
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+a{
+    color: rgb(203, 208, 217);
+    text-decoration: none;
+    background-color: rgb(37, 37, 37);
+    padding:3px;
+    border-radius:5px;
+}
+img{
+    max-width: 600px;
+    min-width: 300px;
+    width: 100%;
+    height:auto;
+    border: 1px solid rgb(203, 208, 217);
+    border-radius: 7.5px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+p{
+    color:rgb(203, 208, 217);
+    font-family: 'Inclusive Sans', sans-serif;
+    Margin-bottom:12px;
+    text-indent: 24px;
+    text-align:left;
+}
+nav{
+  text-align: center;
+  margin-top:14px;
+  font-family: 'Inclusive Sans', sans-serif;
+}
+body{
+    background-color: #111111;
+    opacity: 1;
+    background: radial-gradient(circle, transparent 20%, #111111 20%, #111111 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #111111 20%, #111111 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#7b7b7b 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #7b7b7b 0.8px, #111111 0.8px) -0.4px 0;
+    background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
+}
+.button {
+    background-color: rgb(120, 120, 120);
+    border-radius:5px;
+    padding:3px;
+}
+a:hover{
+    background-color: rgb(93, 93, 93);
+    padding:3px;
+    border-radius:5px;
+}
+a:active{
+    background-color:rgb(228, 228, 228);
+    color:rgb(57, 57, 57);
+}
+a:visited{
+    color:rgb(50, 50, 50);
+    background-color:#c4c4c4;
+}
